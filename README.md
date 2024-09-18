@@ -1,4 +1,4 @@
-[![Android CI](https://github.com/yourusername/TaskManager-Compose/actions/workflows/android-ci.yml/badge.svg)](https://github.com/yourusername/TaskManager-Compose/actions/workflows/android-ci.yml)
+[![Android CI](https://github.com/ifucolo/TaskManager-Compose/actions/workflows/android-ci.yml/badge.svg)](https://github.com/ifucolo/TaskManager-Compose/actions/workflows/android-ci.yml)
 
 # TaskManager - Compose
 
