@@ -1,3 +1,5 @@
+[![Android CI](https://github.com/yourusername/TaskManager-Compose/actions/workflows/android-ci.yml/badge.svg)](https://github.com/yourusername/TaskManager-Compose/actions/workflows/android-ci.yml)
+
 # TaskManager - Compose
 
 TaskManager is a simple task management Android application built using Jetpack Compose, Kotlin, Room Database, and Dagger-Hilt for dependency injection. This project is designed to demonstrate modern Android development techniques including MVVM architecture, state management with StateFlow, and more.
