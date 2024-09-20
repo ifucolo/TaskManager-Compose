@@ -40,13 +40,10 @@ jobs:
     - name: Lint Code
       run: ./gradlew lint
 
-    - name: Run Instrumented Tests on Emulator
-      uses: reactivecircus/android-emulator-runner@v2.20.0
+    - name: Android Emulator Runner
+      uses: ReactiveCircus/android-emulator-runner@v2.32.0
       with:
-        api-level: 30
-        target: google_apis  # Use google APIs system image
-        arch: x86_64
-        script: ./gradlew connectedAndroidTest
+        script: ./gradlew connectedAndroidTest  
         emulator-options: "-no-snapshot-save -noaudio -no-boot-anim"  # Disable unnecessary features for faster startup
         disable-animations: true  # Disable animations for a more stable CI environment
         verbose: true  # Set to true for more logs
