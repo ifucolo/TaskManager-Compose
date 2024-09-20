@@ -37,6 +37,12 @@ jobs:
     - name: Run Unit Tests
       run: ./gradlew test
 
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        file: "**/outputs/code_coverage/**/*.ec"  # Upload the Android coverage report
+
+
     - name: Lint Code
       run: ./gradlew lint
 
