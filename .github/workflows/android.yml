@@ -43,6 +43,7 @@ jobs:
     - name: Android Emulator Runner
       uses: ReactiveCircus/android-emulator-runner@v2.32.0
       with:
+        api-level: 29
         script: ./gradlew connectedAndroidTest  
         emulator-options: "-no-snapshot-save -noaudio -no-boot-anim -gpu swiftshader_indirect"  # Use software rendering
         disable-animations: true  # Disable animations for a more stable CI environment
