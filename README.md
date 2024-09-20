@@ -1,5 +1,14 @@
-[![Android CI](https://github.com/ifucolo/TaskManager-Compose/actions/workflows/android.yml/badge.svg)](https://github.com/ifucolo/TaskManager-Compose/actions/workflows/android.yml)
 
+### Build Project
+[![Build Project](https://github.com/ifucolo/TaskManager-Compose/actions/workflows/android.yml/badge.svg?job=build)](https://github.com/ifucolo/TaskManager-Compose/actions/workflows/android.yml)
+### Unit Tests
+[![Run Unit Tests](https://github.com/ifucolo/TaskManager-Compose/actions/workflows/android.yml/badge.svg?job=unit_tests)](https://github.com/ifucolo/TaskManager-Compose/actions/workflows/android.yml)
+### Code Coverage
+[![Upload Coverage](https://github.com/ifucolo/TaskManager-Compose/actions/workflows/android.yml/badge.svg?job=code_coverage)](https://github.com/ifucolo/TaskManager-Compose/actions/workflows/android.yml)
+### Lint Code
+[![Lint Code](https://github.com/ifucolo/TaskManager-Compose/actions/workflows/android.yml/badge.svg?job=lint)](https://github.com/ifucolo/TaskManager-Compose/actions/workflows/android.yml)
+### Release Build
+[![Build Release APK](https://github.com/ifucolo/TaskManager-Compose/actions/workflows/android.yml/badge.svg?job=release)](https://github.com/ifucolo/TaskManager-Compose/actions/workflows/android.yml)
 
 # 📝 **TaskManager - Compose** 🎨
 
