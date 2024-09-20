@@ -1,6 +1,5 @@
 [![Android CI](https://github.com/ifucolo/TaskManager-Compose/actions/workflows/android.yml/badge.svg)](https://github.com/ifucolo/TaskManager-Compose/actions/workflows/android.yml)
 
-:
 
 # 📝 **TaskManager - Compose** 🎨
 
