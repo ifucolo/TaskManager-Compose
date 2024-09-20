@@ -46,11 +46,9 @@ jobs:
         api-level: 30
         target: google_apis  # Use google APIs system image
         arch: x86_64
-        profile: Pixel_4  # Use a stable profile like Pixel 4
         script: ./gradlew connectedAndroidTest
         emulator-options: "-no-snapshot-save -noaudio -no-boot-anim"  # Disable unnecessary features for faster startup
         disable-animations: true  # Disable animations for a more stable CI environment
-        working-directory: app  # Adjust if needed
         verbose: true  # Set to true for more logs
 
     - name: Build Release APK
