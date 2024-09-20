@@ -47,7 +47,7 @@ Make sure you have the following:
 
 - **Android Studio** (latest stable version)
 - **Android SDK 31+**
-- **JDK 17** (set up in Android Studio)
+- **JDK 18** (set up in Android Studio)
 - **Gradle** (comes with Android Studio)
 
 ### 📦 **Cloning the Repository**
