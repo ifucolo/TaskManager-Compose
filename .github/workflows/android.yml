@@ -44,8 +44,10 @@ jobs:
       uses: ReactiveCircus/android-emulator-runner@v2.32.0
       with:
         script: ./gradlew connectedAndroidTest  
-        emulator-options: "-no-snapshot-save -noaudio -no-boot-anim"  # Disable unnecessary features for faster startup
+        emulator-options: "-no-snapshot-save -noaudio -no-boot-anim -gpu swiftshader_indirect"  # Use software rendering
         disable-animations: true  # Disable animations for a more stable CI environment
+        disable-linux-hw-accel: true  # Force disable hardware acceleration on Linux
+
         verbose: true  # Set to true for more logs
 
     - name: Build Release APK
