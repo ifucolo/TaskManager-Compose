@@ -113,7 +113,6 @@ class TaskRepositoryImplUnitTest {
     @Test
     fun `delete task and check if task is removed from allTasks`() = runTest {
         val initialTasks = TaskStubFactory.createTaskList().toMutableList()
-        TaskStubFactory.createTaskList().toMutableList()
         val taskFlow = MutableStateFlow<List<TaskWithCategory>>(initialTasks)
 
         whenever(taskDao.getAllTasks()).thenReturn(taskFlow)
