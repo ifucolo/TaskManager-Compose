@@ -158,7 +158,7 @@ fun AddTaskScreen(
             enabled = isValidTask,
             modifier = Modifier
                 .fillMaxSize()
-                .padding(16.dp),
+                .padding(horizontal = 16.dp, vertical = 40.dp),
             onClick = {
                 viewModel.handleSaveTask(
                     taskId = taskId,
