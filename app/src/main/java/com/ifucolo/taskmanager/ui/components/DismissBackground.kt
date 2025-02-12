@@ -6,7 +6,7 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Check
+import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material3.Icon
 import androidx.compose.material3.SwipeToDismissBoxState
 import androidx.compose.material3.SwipeToDismissBoxValue
@@ -22,7 +22,7 @@ import androidx.compose.ui.unit.dp
 fun DismissBackground(dismissState: SwipeToDismissBoxState) {
     val color by animateColorAsState(
         targetValue = when (dismissState.dismissDirection) {
-            SwipeToDismissBoxValue.EndToStart -> Color.Green
+            SwipeToDismissBoxValue.EndToStart -> Color.Red
             else -> Color.Transparent
         },
         label = ""
@@ -36,7 +36,7 @@ fun DismissBackground(dismissState: SwipeToDismissBoxState) {
             .padding(16.dp)
     ) {
         Icon(
-            Icons.Default.Check,
+            Icons.Default.Delete,
             contentDescription = "delete",
             modifier = Modifier
                 .testTag(ICON_DISMISS_TEST_TAG)
